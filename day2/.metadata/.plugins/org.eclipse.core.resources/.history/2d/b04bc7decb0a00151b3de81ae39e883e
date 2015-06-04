@@ -1,0 +1,9 @@
+var mainWindow = Titanium.UI.createWindow({
+	
+	backgroundColot: "blue",
+	title: "My first window"
+
+});
+
+mainWindow.open();
+

@@ -1,0 +1,20 @@
+var size = 50;
+
+var msg = "Well hello there.";
+
+var colorWords = ["Red", "Blue", "Green"];
+
+var colorHex = ["#65C95E", "#53C0C6", "#C7579C", "#C49D4F"]
+
+var frontProperties = {
+	//key: value
+	
+	
+};
+
+
+
+
+
+
+

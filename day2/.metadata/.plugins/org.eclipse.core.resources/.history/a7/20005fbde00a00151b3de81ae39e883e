@@ -1,0 +1,25 @@
+var win = Ti.UI.createWindow({
+	backgroundColor: "#B3E5E6",
+	title: "My App Windows"
+});
+//create label
+var title = Ti.UI.createLabel({
+	text: "My App",
+	color: "red",
+	font: {
+		fontSize: 30,
+		fontFamily: "AmericanTypewritter-Bold"
+	}
+});
+//create another label
+
+//create a bies
+
+//add label
+win.add(title);
+//add other label
+//add view
+
+
+
+win.open();

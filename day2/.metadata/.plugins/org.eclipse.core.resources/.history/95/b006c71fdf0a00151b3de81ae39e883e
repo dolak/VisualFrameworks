@@ -1,0 +1,10 @@
+var win = Ti.UI.createWindow({
+	backgroundColor: "#B3E5E6",
+	title: "My App Windows"
+});
+
+
+
+
+
+win.open();

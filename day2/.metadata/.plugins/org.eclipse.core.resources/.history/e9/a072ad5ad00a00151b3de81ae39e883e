@@ -1,0 +1,30 @@
+var mainWindow = Titanium.UI.createWindow({
+	
+	backgroundColor: "#B3E5E6",
+	title: "My first window"
+
+});
+
+
+var headView = Titanium.UI.createView({
+	
+	backgroundColor: "gray",
+	height: 50,
+	top: 20,
+	
+});
+
+var footView = Ti.UI.createView({
+	
+	backgroundColor: "#65C95E",
+	height: 50,
+	bottom: 10,
+	
+});
+
+
+
+mainWindow.add(headView);
+mainWindow.add(footView);
+mainWindow.open();
+

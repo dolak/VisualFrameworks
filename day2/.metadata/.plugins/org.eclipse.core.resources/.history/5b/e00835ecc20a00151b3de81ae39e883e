@@ -1,0 +1,14 @@
+var size;
+
+var msg;
+
+var colorData;
+
+var frontProperties;
+
+
+console.log(size);
+
+
+
+

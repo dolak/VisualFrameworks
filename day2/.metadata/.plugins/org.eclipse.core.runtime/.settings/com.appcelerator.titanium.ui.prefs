@@ -1,4 +1,10 @@
 =run
+2.1\ windows\:launchMode=run
+2.1\ windows\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.iphone.launchShortcut.DD55E4E1-B61E-4838-A8CA-499AF51C5AAC
+2.2\ views\:launchMode=run
+2.2\ views\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.iphone.launchShortcut.DD55E4E1-B61E-4838-A8CA-499AF51C5AAC
+2.3\ Labels\:launchMode=run
+2.3\ Labels\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.iphone.launchShortcut.DD55E4E1-B61E-4838-A8CA-499AF51C5AAC
 LAST_LAUNCH_TIMESTAMP=1433424025873
 eclipse.preferences.version=1
 preference.show.console.onError=true

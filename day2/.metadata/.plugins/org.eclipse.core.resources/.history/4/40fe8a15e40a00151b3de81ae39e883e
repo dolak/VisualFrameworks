@@ -1,0 +1,43 @@
+var win = Ti.UI.createWindow({
+	backgroundColor: "#B3E5E6",
+	title: "My App Windows"
+});
+//create label
+var title = Ti.UI.createLabel({
+	text: "Catz",
+	color: "red",
+	font: {
+		fontSize: 30,
+		//https://iosfonts.com
+		fontFamily: "AmericanTypewriter-Bold"
+	},
+	top: 30
+});
+//create another label
+var para = Ti.UI.createLabel({
+	text: "Damn that dog play riveting piece on synthesizer keyboard, stretch, or hunt anything that moves, always hungry yet meowing non stop for food, play time. Present belly, scratch hand when stroked always hungry for rub face on owner and eat grass, throw it back up claws in your leg and favor packaging over toy claw drapes. Kick up litter under the bed, so play time, yet stretch stick butt in face, and chew foot. Chew iPad power cord behind the couch bathe private parts with tongue then lick owner's face sleep in the bathroom sink. Sun bathe nap all day meowing non stop for food yet nap all day play time, meowing non stop for food so flop over. Rub face on everything the dog smells bad so sun bathe. Sit in box eat and than sleep on your face yet shove bum in owner's face like camera lens chew iPad power cord. Kick up litter chew iPad power cord, but curl into a furry donut vommit food and eat it again stick butt in face, yet climb leg. Chase red laser dot kick up litter need to chase tail, or stare at the wall, play with food and get confused by dust hack up furballs sleep in the bathroom sink shove bum in owner's face like camera lens. Pelt around the house and up and down stairs chasing phantoms meow peer out window, chatter at birds, lure them to mouth pooping rainbow while flying in a toasted bread costume in space. Spot something, big eyes, big eyes, crouch, shake butt, prepare to pounce. Sleep nap make muffins, so hide at bottom of staircase to trip human. Bathe private parts with tongue then lick owner's face knock dis off table head butt cant eat out of my own dish for favor packaging over toy chew foot ears back wide eyed. ",
+	color: "#F6F3E4",
+	font: {
+		fontSize: 10
+	},
+	left: 5,
+	right: 5
+});
+//create a view
+var photo = Ti.UI.createView({
+	backgroundImage: "splatoon-orangesquid.png",
+	width: 150,
+	height: 200,
+	bottom: 20
+	
+});
+
+//add label
+win.add(title);
+//add other label
+win.add(para);
+//add view
+
+
+
+win.open();
